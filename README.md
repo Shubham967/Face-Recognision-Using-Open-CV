@@ -1,1 +1,2 @@
 # Face-Recognision-Using-Open-CV
+It captures images from our webcam and detects multiple faces. It closes a bounding box along each face and crops a largest face and save it in a numpy array with the name of that person. This will be done for multiple persons. This will help us to generate real time training data by taking selfies from our webcam. The goal of our project will be, given a new image we will extract the face and checks in the training data that with whose face it resembles the most.
